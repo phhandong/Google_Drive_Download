@@ -35,7 +35,7 @@ Then this Tool is **ALL YOU WANT**
 - Enable the Google Driver in the API Library ![image](https://github.com/user-attachments/assets/e9c9bedb-b49f-4ad2-b734-3ae468e3b5c7)
 - Add your account into the test users ![image](https://github.com/user-attachments/assets/d50f9916-4246-4c1d-b184-6fb324ae808b)
 - Authorize your account to this Client, Replace the CLIENT ID with yours in this URL and get the AUTHORIZATION_CODE https://accounts.google.com/o/oauth2/v2/auth?scope=https://www.googleapis.com/auth/drive&access_type=offline&include_granted_scopes=true&response_type=code&client_id=YOUR_CLIENT_ID&redirect_uri=urn:ietf:wg:oauth:2.0:oob
-- **Do not close the page** and paste the AUTHORIZATION_CODE into **get_fresh.sh**, then you will get you **Refresh Token** and **Access Token**. Please note that, the **Access Token** will be expired in 1 hour but **Refresh Token** can last long, so that's why we need update the **Access Token** while downloading.
+- **Do not close the page** and paste the AUTHORIZATION_CODE into **get_fresh.sh**, then you will get you **Refresh Token** and **Access Token**. - Please note that, the **Access Token** will be expired in 1 hour but **Refresh Token** can last for 7 days, so that's why we need update the **Access Token** while downloading.
 
 5. For now, you've got every token you need before download from your google driver
 
